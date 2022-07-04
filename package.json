@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-jwt-mongo",
+  "version": "1.0.0",
+  "description": "Simple node.js app with mongo and jwt authentication",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rimraf ./build && npx tsc",
+    "start": "npm run build && node build/app.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheushpitz/nodejs-jwt-mongo.git"
+  },
+  "author": "Matheus Henrique Pitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheushpitz/nodejs-jwt-mongo/issues"
+  },
+  "homepage": "https://github.com/matheushpitz/nodejs-jwt-mongo#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
